@@ -1,0 +1,157 @@
+/*General Style*/
+
+body, html {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: large;
+}
+
+body {
+    background-image: url("/background-image.png");
+    font-family: 'Prompt', sans-serif;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.cursive {
+    font-family: 'Pacifico', cursive;
+}
+
+.jumbotron {
+    background-color: transparent;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    -webkit-text-stroke: .5px white;
+    letter-spacing: 10px;
+}
+
+
+/*Navbar Style*/
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+/*Dropdown Navbar Style*/
+
+.dropdown-menu li:hover {
+    background-color: black;
+}
+
+.dropdown-menu li {
+    background-color: transparent;
+    transition: background-color 750ms ease-in-out;
+}
+
+@media (min-width:768px) {
+    .dropdown-menu li:hover {
+        background-color: black;
+    }
+    .dropdown-menu {
+        background-color: #333!important;
+        transition: background-color 750ms ease-in-out;
+    }
+    .dropdown-menu li a {
+        color: white;
+        background-color: black;
+    }
+}
+
+
+/*Loading Image Style*/
+
+#loading img {
+    border-radius: 200px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loading {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*Pagination Style*/
+
+#paginator .numbackground {
+    background-color: #222;
+    color: white;
+    border-color: darkgrey;
+}
+
+
+/*Carousel Image*/
+
+.carousel {
+    padding-top: 10px;
+}
+
+img {
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+h2 {
+    -webkit-text-stroke: .5px black;
+    letter-spacing: 1px;
+}
+
+
+/*recipe card style*/
+
+.well.recipe {
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    /*font-weight:200;*/
+    font-size: 1.5em;
+    border: #101010 5px solid;
+    letter-spacing: 3px;
+    background-image: url('/background-image.png');
+    width: 800px;
+    margin: auto;
+}
+
+h3 {
+    float: left;
+    font-size: xx-large;
+}
+
+.image {
+    width: 100%;
+}
+
+#recipe-content {
+    margin-top: 10em;
+}
+
+.list-inline .label {
+    margin: 4px;
+    font-weight: 200;
+    padding: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+/*footer-styles*/
+
+footer {
+    font-size: small;
+}
