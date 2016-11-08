@@ -1,4 +1,4 @@
-/*General Style*/
+/*General Style for Wünderbar*/
 
 body, html {
     position: relative;
@@ -8,7 +8,7 @@ body, html {
 }
 
 body {
-    background-image: url("/background-image.png");
+    background-image: url("/black-background.png");
     font-family: 'Prompt', sans-serif;
     background-attachment: fixed;
 }
@@ -123,7 +123,8 @@ h2 {
     font-size: 1.5em;
     border: #101010 5px solid;
     letter-spacing: 3px;
-    background-image: url('/background-image.png');
+    background-image: url('/beige-background.jpg');
+    /*background-repeat: no-repeat;*/
     width: 800px;
     margin: auto;
 }
